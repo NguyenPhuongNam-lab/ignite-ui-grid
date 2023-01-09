@@ -1,4 +1,4 @@
-import { Component, Host, OnInit } from '@angular/core';
+import { Component, Host } from '@angular/core';
 import {
   ConnectedPositioningStrategy,
   IgxPaginatorComponent,
