@@ -1,5 +1,5 @@
 <div class="d-flex align-items-center">
-  <div class="px-10">{{ "Items per page" }}</div>
+  <div class="px-10">{{ 'Items per page' }}</div>
   <igx-select [(ngModel)]="igxPaginator.perPage">
     <igx-select-item *ngFor="let item of [25, 50, 100]" [value]="item">{{
       item
@@ -17,7 +17,7 @@
       }}
       /
     </span>
-    {{ igxPaginator.totalRecords || 0 }} {{ "Items" }}
+    {{ igxPaginator.totalRecords || 0 }} {{ 'Items' }}
   </div>
   <div>
     <button
