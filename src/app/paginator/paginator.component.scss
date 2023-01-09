@@ -1,0 +1,12 @@
+:host {
+  height: 40px;
+  width: 100%;
+  font-size: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  ::ng-deep igx-select .input {
+    width: 41px !important;
+  }
+}
